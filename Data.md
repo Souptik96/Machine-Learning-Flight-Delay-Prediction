@@ -1,14 +1,31 @@
 # Data can be downloaded from: 
-- https://www.kaggle.com/datasets/alessandrolobello/the-ultimate-earthquake-dataset-from-1990-2023
-- kaggle datasets download -d alessandrolobello/the-ultimate-earthquake-dataset-from-1990-2023
+- https://www.kaggle.com/datasets/iamsouravbanerjee/airline-dataset
+- kaggle datasets download -d iamsouravbanerjee/airline-dataset
 
 ## Data description:
-- The earthquakes dataset is an extensive collection of data containing information about all the earthquakes recorded worldwide from 1990 to 2023. The dataset comprises approximately three million rows, with each row representing a specific earthquake event. Each entry in the dataset contains a set of relevant attributes related to the earthquake, such as the date and time of the event, the geographical location (latitude and longitude), the magnitude of the earthquake, the depth of the epicenter, the type of magnitude used for measurement, the affected region, and other pertinent information.
+- Airline data holds immense importance as it offers insights into the functioning and efficiency of the aviation industry. It provides valuable information about flight routes, schedules, passenger demographics, and preferences, which airlines can leverage to optimize their operations and enhance customer experiences.
+
+## Content
+This dataset comprises diverse parameters relating to airline operations on a global scale. The dataset prominently incorporates fields such as Passenger ID, First Name, Last Name, Gender, Age, Nationality, Airport Name, Airport Country Code, Country Name, Airport Continent, Continents, Departure Date, Arrival Airport, Pilot Name, and Flight Status. These columns collectively provide comprehensive insights into passenger demographics, travel details, flight routes, crew information, and flight statuses. Researchers and industry experts can leverage this dataset to analyze trends in passenger behavior, optimize travel experiences, evaluate pilot performance, and enhance overall flight operations.
+
+## Dataset Glossary (Column-wise)
+
+- Passenger ID - Unique identifier for each passenger
+- First Name - First name of the passenger
+- Last Name - Last name of the passenger
+- Gender - Gender of the passenger
+- Age - Age of the passenger
+- Nationality - Nationality of the passenger
+- Airport Name - Name of the airport where the passenger boarded
+- Airport Country Code - Country code of the airport's location
+- Country Name - Name of the country the airport is located in
+- Airport Continent - Continent where the airport is situated
+- Continents - Continents involved in the flight route
+- Departure Date - Date when the flight departed
+- Arrival Airport - Destination airport of the flight
+- Pilot Name - Name of the pilot operating the flight
+- Flight Status - Current status of the flight (e.g., on-time, delayed, canceled)
 
 ## Importance and Utility of the Dataset:
 
-- Earthquake Analysis and Prediction: The dataset provides a valuable data source for scientists and researchers interested in analyzing spatial and temporal distribution patterns of earthquakes. By studying historical data, trends, and patterns, it becomes possible to identify high-risk seismic zones and develop predictive models to forecast future seismic events more accurately.
-- Safety and Prevention: Understanding factors contributing to earthquake frequency and severity can assist authorities and safety experts in implementing preventive measures at both local and global levels. These data can enhance the design and construction of earthquake-resistant infrastructures, reducing material damage and safeguarding human lives.
-- Seismological Science: The dataset offers a critical resource for seismologists and geologists studying the dynamics of the Earth's crust and various geological faults. Analyzing details of recorded earthquakes allows for a deeper comprehension of geological processes leading to seismic activity.
-- Study of Tectonic Movements: The dataset can be utilized to analyze patterns of tectonic movements in specific areas over the years. This may help identify seasonal or long-term seismic activity, providing additional insights into plate tectonic behavior.
-- Public Information and Awareness: Earthquake data can be made accessible to the public through portals and applications, enabling individuals to monitor seismic activity in their regions of interest and promoting awareness and preparedness for earthquakes.
+By analyzing data on delays, cancellations, and on-time performance, airlines can identify trends and implement strategies to improve punctuality and mitigate disruptions. Moreover, regulatory bodies and policymakers rely on this data to ensure safety standards, enforce regulations, and make informed decisions regarding aviation policies. Researchers and analysts use airline data to study market trends, assess environmental impacts, and develop strategies for sustainable growth within the industry. In essence, airline data serves as a foundation for informed decision-making, operational efficiency, and the overall advancement of the aviation sector.
