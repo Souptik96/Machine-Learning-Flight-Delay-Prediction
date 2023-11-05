@@ -1,27 +1,32 @@
-## Linear Regression Model
+## # Models Used in Flight Delay Prediction
 
-### Overview:
-Linear Regression is a fundamental and widely used statistical model in machine learning and statistics. In the context of this project, Linear Regression is applied to understand and predict patterns in earthquake data.
+## Introduction
+In the "Flight Delay Prediction" project, we employed a variety of machine learning models to tackle the challenging task of predicting flight delays. Each of these models offers unique strengths and insights into the complex world of flight scheduling and delays. Here, we provide an overview of the models used and their performance in the project.
 
-### Key Features:
-- **Linearity**: Linear Regression assumes a linear relationship between the input features (predictors) and the target variable. It aims to find the best-fit line that minimizes the sum of the squared differences between the observed and predicted values.
+## XGBoost (Extreme Gradient Boosting)
+**Overview:** XGBoost is a powerful ensemble machine learning algorithm known for its speed, efficiency, and predictive accuracy. It uses a gradient boosting framework and is particularly effective in handling complex datasets.
 
-- **Predictive Power**: Linear Regression is a valuable tool for making predictions and understanding the impact of various factors (independent variables) on the target variable, which, in this case, could be earthquake attributes such as magnitude, depth, or location.
+**Application:** In our project, XGBoost was applied to predict flight delays by leveraging its ability to model non-linear relationships and handle large datasets effectively.
 
-- **Interpretability**: Linear Regression models are highly interpretable, making it easy to understand how changes in predictor variables affect the predicted outcome. This interpretability is especially useful for gaining insights into the earthquake data and identifying significant contributing factors.
+## GradientBoosting (Gradient Boosting Classifier)
+**Overview:** GradientBoosting is another ensemble learning method that builds an additive model in a forward stage-wise manner. It is based on the gradient descent algorithm and has proven to be effective in various machine learning tasks.
 
-### Usage:
-Linear Regression is applied to this earthquake dataset to build a predictive model.
+**Application:** We utilized GradientBoosting to predict flight delays due to its robustness and its capability to handle features with varying importance.
 
-### Limitations:
-- Linear Regression assumes that the relationship between predictors and the target variable is linear. If the data follows a more complex, nonlinear pattern, other models may perform better.
+## Logistic Regression
+**Overview:** Logistic Regression is a classic machine learning algorithm used for binary classification tasks. It models the probability that a given input belongs to a particular class, making it a fundamental tool in classification problems.
 
-- It is sensitive to outliers in the data, which can influence the regression line significantly.
+**Application:** In our project, Logistic Regression was employed to predict flight delays by classifying flights as delayed or not delayed, providing a baseline model for comparison.
 
-### Model Evaluation:
-The performance of the Linear Regression model can be assessed using metrics like Mean Squared Error (MSE) and R-squared (R²), which indicate how well the model fits the data and makes accurate predictions.
+## Support Vector Classifier (SVC)
+**Overview:** The Support Vector Classifier is a classification algorithm that seeks to find the optimal hyperplane that best separates data points of different classes. It is known for its effectiveness in handling high-dimensional data.
 
-### Customization:
-Linear Regression can be customized and extended with techniques like Ridge Regression and Lasso Regression to handle multicollinearity or overfitting.
+**Application:** We used SVC to predict flight delays by defining a decision boundary that separates delayed and non-delayed flights based on various features.
 
-In this project, Linear Regression is a valuable model for predicting earthquake-related attributes and understanding the relationships between various factors influencing seismic activity. By examining coefficients and statistics associated with the model, you can gain insights into the dataset and make informed predictions about future earthquake occurrences.
+## Model Performance
+Each of these models was assessed using various performance metrics, including accuracy, precision, recall, and F1-score, to evaluate their effectiveness in predicting flight delays. The final decision on model selection and deployment was influenced not only by accuracy but also by the model's ability to correctly classify delayed flights, which is of significant importance in the aviation domain.
+
+## Conclusion
+The combination of these machine learning models provided valuable insights and predictive power in the context of flight delay prediction. Each model has its unique strengths and weaknesses, and the project's findings emphasize the importance of evaluating models not only based on accuracy but also on their ability to correctly predict delayed flights.
+
+The variety of models used in this project demonstrates the versatility of machine learning in addressing complex real-world problems. It also opens the door to further experimentation and model refinement to achieve even more accurate flight delay predictions.
